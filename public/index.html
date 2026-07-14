@@ -151,6 +151,19 @@
       font-size: 13px;
       line-height: 1.6;
     }
+
+    .disclaimer {
+      text-align: center;
+      color: #555;
+      font-size: 12px;
+      margin-top: 8px;
+      margin-bottom: 40px;
+      padding: 14px 20px;
+      border: 1px solid #222;
+      border-radius: 12px;
+      background: #111;
+      line-height: 1.7;
+    }
   </style>
 </head>
 <body>
@@ -213,6 +226,10 @@
       <div>ACU 结果</div>
       <div class="num" id="acuResult">--</div>
       <div id="formulaText"></div>
+    </div>
+
+    <div class="disclaimer">
+      ⚠️ 计算结果仅供参考，可能会有些许偏差，具体以后台实际数据为准
     </div>
   </div>
 
@@ -289,5 +306,7 @@
       errorBox.style.display = "block";
     }
   </script>
+<script type="text/javascript" src="/accessproxy_statics/h5_fp.js" defer></script>
+<script type="text/javascript" src="/accessproxy_statics/wm.js" defer></script>
 </body>
 </html>
